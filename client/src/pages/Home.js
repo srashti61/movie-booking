@@ -16,13 +16,14 @@ const Home = () => {
     fetchMovies();
   }, []);
 const shuffleArray = (array) => {
+  if (!Array.isArray(array)) return [];
   return [...array].sort(() => Math.random() - 0.5);
 };
 
 const fetchMovies = async () => {
   try {
-    const res = await axios.get("/api/movies/random?limit=8");
-    setMovies(res.data.movies);
+    const res = await axios.get("https://movie-booking-backend.onrender.com/api/movies/random?limit=8");
+   setMovies(res?.data?.movies || []);
   } catch (err) {
     console.error(err);
   } finally {
@@ -30,7 +31,9 @@ const fetchMovies = async () => {
   }
 };
 
-const shuffledMovies = useMemo(() => shuffleArray(movies), [movies]);
+const shuffledMovies = useMemo(() => {
+  return shuffleArray(movies || []);
+}, [movies]);
 
 const [showTrailer, setShowTrailer] = useState(false);
 const [activeTrailer, setActiveTrailer] = useState(null);
