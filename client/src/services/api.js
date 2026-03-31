@@ -45,8 +45,8 @@ export const authAPI = {
 };
 
 export const reviewAPI = {
-  addReview: (data) => axios.post("/api/reviews", data),
-  getReviews: (movieId) => axios.get(`/api/reviews/${movieId}`),
+  addReview: (data) => api.post("/reviews", data),
+  getReviews: (movieId) => api.get(`/reviews/${movieId}`),
 };
 
 export const movieAPI = {
