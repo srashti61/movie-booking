@@ -22,7 +22,7 @@ const shuffleArray = (array) => {
 
 const fetchMovies = async () => {
   try {
-    const res = await axios.get("https://movie-booking-backend.onrender.com/api/movies/random?limit=8");
+    const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/movies/random?limit=8`);
    setMovies(res?.data?.movies || []);
   } catch (err) {
     console.error(err);
