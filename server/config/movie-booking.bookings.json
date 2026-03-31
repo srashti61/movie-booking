@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6940598f1ae886193737b4db"
+  },
+  "user": {
+    "$oid": "6940106d19a0dbb7df6830d2"
+  },
+  "show": {
+    "$oid": "694058d92fdf3be70e946af2"
+  },
+  "seats": [
+    {
+      "seatNumber": "A1",
+      "row": 0,
+      "col": 0,
+      "type": "regular",
+      "price": 110,
+      "_id": {
+        "$oid": "6940598f1ae886193737b4dc"
+      }
+    }
+  ],
+  "ticketNumber": "TICKET1765824911525976",
+  "totalAmount": 110,
+  "status": "confirmed",
+  "paymentStatus": "completed",
+  "paymentMethod": "card",
+  "gstAmount": 0,
+  "finalAmount": 135.3,
+  "bookingDate": {
+    "$date": "2025-12-15T18:55:11.528Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-15T18:55:11.528Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T18:55:11.554Z"
+  },
+  "__v": 0,
+  "paymentId": "PAY1765824911554",
+  "transactionId": "TXN1765824911549"
+}]

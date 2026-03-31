@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830d2"
+  },
+  "name": "Admin User",
+  "email": "admin@gmail.com",
+  "password": "$2a$10$aj0BypDAp7N.TVBnqw/sCuNLZIC8/fBbvLJ5Z1gcJ17pT7QlOvU/i",
+  "phone": "9876543210",
+  "isAdmin": true,
+  "bookings": [],
+  "favorites": [],
+  "profileImage": "https://ui-avatars.com/api/?name=User&background=random",
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.351Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:43:09.351Z"
+  },
+  "__v": 0
+}]

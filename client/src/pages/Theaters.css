@@ -1,0 +1,552 @@
+/* ===============================
+   THEATERS PAGE - PREMIUM DESIGN
+================================ */
+
+/* Base Typography */
+.font-family-sans-serif {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.font-family-base {
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.65;
+}
+
+/* Hero Section */
+/* ===============================
+   PREMIUM HERO BANNER
+================================ */
+
+.movies-header,
+.theaters-hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* cinematic grain + depth */
+.movies-header::after,
+.theaters-hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.06), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(255,0,0,0.08), transparent 45%);
+  pointer-events: none;
+}
+
+/* title glow */
+.movies-header h1,
+.theaters-hero-section h1 {
+  text-shadow:
+    0 10px 30px rgba(0,0,0,0.75),
+    0 0 40px rgba(255,61,0,0.25);
+}
+
+/* subtitle */
+.movies-header p,
+.theaters-hero-section p {
+  max-width: 720px;
+  opacity: 0.92;
+}
+
+/* badges inside banner */
+.movies-header .badge,
+.theaters-hero-section .badge {
+  background: rgba(0,0,0,0.55) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.45);
+}
+
+
+/* Form Controls */
+.form-control-modern {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #f9fafb;
+  color: #374151;
+}
+
+.form-control-modern:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.1);
+  background: #ffffff;
+  outline: none;
+}
+
+.form-select-modern {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  background: #f9fafb url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23374151' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") no-repeat right 16px center/16px 12px;
+  transition: all 0.3s ease;
+  appearance: none;
+  cursor: pointer;
+}
+
+.form-select-modern:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.1);
+  background-color: #ffffff;
+  outline: none;
+}
+
+/* Action Buttons */
+.theaters-action-btn {
+  background: linear-gradient(135deg, #dc3545 0%, #ff3d00 100%);
+  border: none;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 30px rgba(220, 53, 69, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.theaters-action-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.theaters-action-btn:hover::before {
+  left: 100%;
+}
+
+.theaters-action-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(220, 53, 69, 0.5);
+  background: linear-gradient(135deg, #c82333 0%, #e53935 100%);
+}
+
+/* Amenities Filter */
+.amenities-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.amenity-badge {
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.amenity-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Theater Card */
+/* ===============================
+   THEATER CARD – PREMIUM DESIGN
+================================ */
+
+.theater-card-modern {
+  border-radius: 22px;
+  overflow: hidden;
+  background: #ffffff;
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.12);
+}
+
+.theater-card-modern:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 28px 65px rgba(0,0,0,0.18);
+}
+
+/* Top Accent */
+.theater-card-modern::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  height: 5px;
+  background: linear-gradient(135deg, #ff0844, #ff3d00);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.theater-card-modern:hover::before {
+  opacity: 1;
+}
+
+/* ===============================
+   HEADER (IMAGE / GRADIENT)
+================================ */
+
+.theater-card-header {
+  aspect-ratio: 2.3 / 3;
+  max-height: 160px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+}
+
+/* ✅ DUMMY IMAGE */
+.theater-card-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.tripadvisor.in%2FAttraction_Review-g186338-d3592032-Reviews-New_Wimbledon_Theatre-London_England.html&ved=0CBUQjRxqFwoTCKDBiuTywZEDFQAAAAAdAAAAABAi&opi=89978449");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.75);
+}
+
+
+.theater-card-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(2,6,23,0.9),
+    rgba(15,23,42,0.85)
+  );
+}
+
+.theater-card-overlay {
+  position: absolute;
+  inset: 0;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.theater-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.theater-location {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* Type Badge */
+.theater-type-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #a363e6;
+  backdrop-filter: blur(8px);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* ===============================
+   BODY – COMPACT & CLEAN
+================================ */
+
+.theater-card-body {
+  padding: 1.1rem !important;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Stats */
+.theater-stats {
+  margin-bottom: 1rem;
+}
+
+.stat-number {
+  font-size: 1rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+}
+
+/* ===============================
+   AMENITIES
+================================ */
+
+.theater-amenities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.amenity-badge-sm {
+  background: #f1f5f9;
+  color: #a363e6;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  transition: all 0.25s ease;
+}
+
+.amenity-badge-sm:hover {
+   background:'linear-gradient(135deg, #d8b4fe 0%, purple 100%)';
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.more-badge {
+  background: #e5e7eb;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.theaters-action-btn {
+   background:'linear-gradient(135deg, #d8b4fe 0%, purple 100%)';
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: 0 10px 28px #c6a4e9;
+}
+
+.theaters-action-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px #c395f1;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .theater-card-header {
+    height: 150px;
+  }
+}
+
+/* Theater Stats */
+.theater-stats {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 20px;
+}
+
+.stat-item {
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* Amenities Badges */
+.amenity-badge-sm {
+  background-color: #0060fa;
+  color: #ffffff;
+  border: 1px solid #C7DBFF;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+/* +more badge slightly darker */
+.more-badge {
+  background-color: #DCEBFF;
+  color: #2563EB;
+  border-color: #B6D4FE;
+}
+
+
+/* Contact Info */
+.contact-info {
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%);
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+/* CTA Card */
+.theaters-cta-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  border: 2px dashed #e5e7eb;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+/* Error Card */
+.theaters-error-card {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffecb5 100%);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Loading States */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.spinner-modern {
+  width: 70px;
+  height: 70px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #dc3545;
+  border-right: 4px solid #ff3d00;
+  border-bottom: 4px solid #ff0844;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Empty States */
+.empty-state-icon {
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(135deg, #eef2f7 0%, #e5e7eb 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state-icon i {
+  font-size: 3.5rem;
+  background: linear-gradient(135deg, #374151 0%, #6c757d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animation Classes */
+.fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .theater-card-header {
+    height: 160px;
+  }
+  
+  .theater-name {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .theater-card-header {
+    height: 140px;
+    padding: 20px;
+  }
+  
+  .theater-name {
+    font-size: 1.4rem;
+  }
+  
+  .stat-number {
+    font-size: 1rem;
+  }
+  
+  .theaters-action-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .theaters-hero-section {
+    padding: 3rem 0;
+  }
+  
+  .theater-card-modern {
+    border-radius: 20px;
+  }
+  
+  .theater-card-header {
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .theater-stats {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .theaters-hero-section {
+    padding: 2rem 0;
+  }
+  
+  .theater-card-header {
+    height: 120px;
+    padding: 15px;
+  }
+  
+  .theater-name {
+    font-size: 1.2rem;
+  }
+  
+  .theater-location {
+    font-size: 0.9rem;
+  }
+  
+  .stat-number {
+    font-size: 1.2rem;
+  }
+  
+  .stat-label {
+    font-size: 0.8rem;
+  }
+  
+  .spinner-modern {
+    width: 50px;
+    height: 50px;
+  }
+}

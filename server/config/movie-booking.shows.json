@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "694049d02583a530bf6f99b2"
+  },
+  "movie": {
+    "$oid": "6940106d19a0dbb7df6830e3"
+  },
+  "theater": {
+    "$oid": "69403fce6541e51cf719fe1f"
+  },
+  "screen": 1,
+  "date": {
+    "$date": "2025-12-19T00:00:00.000Z"
+  },
+  "startTime": "Fri Dec 19 2025 10:00:00 GMT+0530 (India Standard Time)",
+  "endTime": "Fri Dec 19 2025 12:51:00 GMT+0530 (India Standard Time)",
+  "totalSeats": 150,
+  "seatsLimit": 150,
+  "seatCounts": {
+    "regular": 20,
+    "premium": 40,
+    "vip": 50,
+    "balcony": 40
+  },
+  "price": {
+    "regular": 100,
+    "premium": 200,
+    "vip": 300,
+    "balcony": 400
+  },
+  "isActive": true,
+  "bookedSeats": [],
+  "availableSeats": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694049d02583a530bf6f99be"
+  },
+  "movie": {
+    "$oid": "6940106d19a0dbb7df6830e3"
+  },
+  "theater": {
+    "$oid": "69403fce6541e51cf719fe1f"
+  },
+  "screen": 1,
+  "date": {
+    "$date": "2025-12-16T00:00:00.000Z"
+  },
+  "startTime": "Tue Dec 16 2025 10:00:00 GMT+0530 (India Standard Time)",
+  "endTime": "Tue Dec 16 2025 12:51:00 GMT+0530 (India Standard Time)",
+  "totalSeats": 150,
+  "seatsLimit": 150,
+  "seatCounts": {
+    "regular": 20,
+    "premium": 40,
+    "vip": 50,
+    "balcony": 40
+  },
+  "price": {
+    "regular": 100,
+    "premium": 200,
+    "vip": 300,
+    "balcony": 400
+  },
+  "isActive": true,
+  "bookedSeats": [],
+  "availableSeats": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694058d92fdf3be70e946af2"
+  },
+  "movie": {
+    "$oid": "6940106d19a0dbb7df6830e3"
+  },
+  "theater": {
+    "$oid": "69403fce6541e51cf719fe1f"
+  },
+  "screen": 1,
+  "date": {
+    "$date": "2025-12-18T00:00:00.000Z"
+  },
+  "startTime": "Thu Dec 18 2025 10:00:00 GMT+0530 (India Standard Time)",
+  "endTime": "Thu Dec 18 2025 12:51:00 GMT+0530 (India Standard Time)",
+  "totalSeats": 150,
+  "seatsLimit": 0,
+  "seatCounts": {
+    "regular": 150,
+    "premium": 0,
+    "vip": 0,
+    "balcony": 0
+  },
+  "price": {
+    "regular": 110,
+    "premium": 0,
+    "vip": 0,
+    "balcony": 0
+  },
+  "isActive": true,
+  "bookedSeats": [
+    {
+      "seatNumber": "A1",
+      "row": 0,
+      "col": 0,
+      "bookingId": {
+        "$oid": "6940598f1ae886193737b4db"
+      },
+      "_id": {
+        "$oid": "6940598f1ae886193737b4de"
+      }
+    }
+  ],
+  "availableSeats": 149,
+  "__v": 1
+}]

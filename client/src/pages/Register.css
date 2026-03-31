@@ -1,0 +1,349 @@
+/* Register.css - Modern Design */
+
+/* Base Styles */
+.register-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.register-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 60% 40%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+}
+
+/* Benefits Card */
+.benefits-card {
+  background: linear-gradient(135deg, #244a90 0%, #2a5298 100%);
+  color: white;
+  border-radius: 24px;
+}
+
+.benefits-card .brand-logo {
+  color: white;
+}
+
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-circle i {
+  font-size: 1.25rem;
+}
+
+.benefit-item h5 {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.benefit-item p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Stats Card */
+.stats-card {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.stat-number {
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+/* Register Card */
+.register-card {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.register-icon-circle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #0d6efd 0%, #0dcaf0 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.3);
+}
+
+/* Form Controls */
+.form-control-modern {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: all 0.3s ease;
+}
+
+.form-control-modern:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.1);
+  background: #ffffff;
+  outline: none;
+}
+
+.form-control-modern.is-invalid {
+  border-color: #dc3545;
+  background-image: none;
+}
+
+.form-control-modern.is-invalid:focus {
+  box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.1);
+}
+
+.form-control-modern::placeholder {
+  color: #9ca3af;
+}
+
+/* Password Input */
+.password-input-group {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem;
+  color: #6b7280;
+  border: none;
+  background: transparent;
+  z-index: 10;
+}
+
+.password-toggle:hover {
+  color: #dc3545;
+}
+
+/* Password Strength */
+.password-strength .progress {
+  height: 8px;
+  border-radius: 4px;
+}
+
+/* Password Requirements */
+.password-requirements {
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.requirement-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+.requirement-icon.valid {
+  background: #10b981;
+  color: white;
+}
+
+.requirement-icon.invalid {
+  background: #d1d5db;
+  color: #6b7280;
+}
+
+/* Checkbox */
+.form-check-modern .form-check-input {
+  width: 1.2em;
+  height: 1.2em;
+  margin-top: 0.15em;
+  border: 2px solid #d1d5db;
+  cursor: pointer;
+}
+
+.form-check-modern .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.form-check-modern .form-check-input:focus {
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.25);
+}
+
+.form-check-modern .form-check-input.is-invalid {
+  border-color: #dc3545;
+}
+
+/* Register Button */
+.register-btn {
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
+}
+
+.register-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.4);
+}
+
+.register-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Login Link */
+.login-link {
+  background: linear-gradient(135deg, #a363e3 0%, #ed65ed 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
+}
+
+.login-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px #a363a3;
+  color: white;
+}
+
+/* Alert */
+.alert {
+  border-radius: 12px;
+  border-left: 4px solid #dc3545;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .register-page {
+    background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%);
+  }
+
+  .register-background {
+    display: none;
+  }
+
+  .benefits-card {
+    display: none;
+  }
+
+  .register-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+  }
+
+  .register-icon-circle {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .register-card {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .form-control-modern {
+    padding: 0.75rem;
+  }
+
+  .password-requirements .row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes requirementCheck {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.requirement-icon {
+  animation: requirementCheck 0.3s ease-out;
+}
+
+/* Utility Classes */
+.font-family-sans-serif {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}

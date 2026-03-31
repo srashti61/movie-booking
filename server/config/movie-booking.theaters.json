@@ -1,0 +1,426 @@
+[{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe1d"
+  },
+  "name": "PVR Cinemas",
+  "location": {
+    "address": "Phoenix Mall",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipCode": "560048"
+  },
+  "contact": {
+    "phone": "9876543210",
+    "email": "pvr.blr@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "IMAX",
+      "capacity": 200,
+      "screenType": "IMAX",
+      "seats": []
+    },
+    {
+      "screenNumber": 2,
+      "screenName": "VIP",
+      "capacity": 120,
+      "screenType": "VIP",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "IMAX",
+    "Dolby Atmos",
+    "Parking"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe1e"
+  },
+  "name": "INOX National",
+  "location": {
+    "address": "Forum Mall",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipCode": "560095"
+  },
+  "contact": {
+    "phone": "9887766554",
+    "email": "inox.forum@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Audi 1",
+      "capacity": 180,
+      "screenType": "Dolby",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "Dolby Atmos",
+    "Parking",
+    "Online Booking"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe1f"
+  },
+  "name": "AGS Cinemas",
+  "location": {
+    "address": "Villivakkam",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zipCode": "600049",
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    }
+  },
+  "contact": {
+    "phone": "9123456780",
+    "email": "ags.chennai@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "capacity": 150,
+      "screenType": "Standard",
+      "seats": [],
+      "_id": {
+        "$oid": "6940405975ce8b703d1eb7f5"
+      }
+    }
+  ],
+  "amenities": [
+    "Parking",
+    "Cafeteria"
+  ],
+  "isActive": true,
+  "openingHours": {
+    "weekdays": {
+      "open": "10:00",
+      "close": "23:00"
+    },
+    "weekends": {
+      "open": "09:00",
+      "close": "00:00"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe20"
+  },
+  "name": "SPI Escape",
+  "location": {
+    "address": "Royapettah High Road",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zipCode": "600014"
+  },
+  "contact": {
+    "phone": "9000011111",
+    "email": "escape.spi@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Escape Screen",
+      "capacity": 100,
+      "screenType": "VIP",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "VIP Lounge",
+    "Parking"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe21"
+  },
+  "name": "Luxe Cinemas",
+  "location": {
+    "address": "Phoenix Market City",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zipCode": "600042"
+  },
+  "contact": {
+    "phone": "9555566666",
+    "email": "luxe.gold@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Luxe Gold",
+      "capacity": 80,
+      "screenType": "VIP",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "VIP Lounge",
+    "Dolby Atmos",
+    "Free WiFi"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe22"
+  },
+  "name": "Cinepolis",
+  "location": {
+    "address": "ETA Mall",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zipCode": "600097"
+  },
+  "contact": {
+    "phone": "9898989898",
+    "email": "cinepolis@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Audi 1",
+      "capacity": 160,
+      "screenType": "Standard",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "Parking",
+    "Online Booking"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe23"
+  },
+  "name": "Carnival Cinemas",
+  "location": {
+    "address": "Ameerpet",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zipCode": "500038"
+  },
+  "contact": {
+    "phone": "9012345678",
+    "email": "carnival.hyd@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Screen 1",
+      "capacity": 140,
+      "screenType": "Standard",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "Parking",
+    "Food Court"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe24"
+  },
+  "name": "Asian Cinemas",
+  "location": {
+    "address": "Uppal",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zipCode": "500039"
+  },
+  "contact": {
+    "phone": "9345678123",
+    "email": "asian.cinemas@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Asian Gold",
+      "capacity": 170,
+      "screenType": "Dolby",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "Dolby Atmos",
+    "Parking"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe25"
+  },
+  "name": "Rockline Cinemas",
+  "location": {
+    "address": "Yeshwanthpur",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipCode": "560022"
+  },
+  "contact": {
+    "phone": "9988776655",
+    "email": "rockline@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Rockline Screen",
+      "capacity": 190,
+      "screenType": "Standard",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "Parking",
+    "Cafeteria"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69403fce6541e51cf719fe26"
+  },
+  "name": "Gopalan Cinemas",
+  "location": {
+    "address": "Bannerghatta Road",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipCode": "560076"
+  },
+  "contact": {
+    "phone": "9776655443",
+    "email": "gopalan@gmail.com"
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "screenName": "Gopalan Audi",
+      "capacity": 160,
+      "screenType": "Standard",
+      "seats": []
+    }
+  ],
+  "amenities": [
+    "Parking",
+    "Online Booking"
+  ],
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6940403675ce8b703d1eb7e4"
+  },
+  "name": "fd",
+  "location": {
+    "address": "dffdf",
+    "city": "dfdf",
+    "state": "dfdf",
+    "zipCode": "4343",
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    }
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "capacity": 100,
+      "screenType": "Standard",
+      "seats": [],
+      "_id": {
+        "$oid": "6940403675ce8b703d1eb7e5"
+      }
+    }
+  ],
+  "amenities": [],
+  "contact": {
+    "phone": "45454",
+    "email": "v@h.gubn"
+  },
+  "openingHours": {
+    "weekdays": {
+      "open": "10:00",
+      "close": "23:00"
+    },
+    "weekends": {
+      "open": "09:00",
+      "close": "00:00"
+    }
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-15T17:07:02.088Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T17:07:02.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694046f92583a530bf6f9858"
+  },
+  "name": "df",
+  "location": {
+    "address": "fdf",
+    "city": "dfdf",
+    "state": "fdd",
+    "zipCode": "43343",
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    }
+  },
+  "screens": [
+    {
+      "screenNumber": 1,
+      "capacity": 100,
+      "screenType": "Standard",
+      "seats": [],
+      "_id": {
+        "$oid": "694046f92583a530bf6f9859"
+      }
+    }
+  ],
+  "amenities": [],
+  "contact": {
+    "phone": "34343434",
+    "email": "c@g.gfg"
+  },
+  "openingHours": {
+    "weekdays": {
+      "open": "10:00",
+      "close": "23:00"
+    },
+    "weekends": {
+      "open": "09:00",
+      "close": "00:00"
+    }
+  },
+  "isActive": false,
+  "createdAt": {
+    "$date": "2025-12-15T17:35:53.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T17:35:53.790Z"
+  },
+  "__v": 0
+}]

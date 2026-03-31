@@ -1,0 +1,61 @@
+/* src/styles/booking.css */
+.seat-btn {
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.seat-btn:hover:not(:disabled) {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.seat-btn:disabled {
+  cursor: not-allowed;
+}
+
+.screen {
+  background: linear-gradient(to bottom, #333, #666);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 20px,
+    rgba(255,255,255,0.1) 20px,
+    rgba(255,255,255,0.1) 40px
+  );
+  pointer-events: none;
+}
+
+.booking-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.qr-code {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}

@@ -1,0 +1,546 @@
+[{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830d5"
+  },
+  "title": "Avengers: Endgame",
+  "description": "The Avengers assemble once more to reverse Thanos' actions.",
+  "duration": 181,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "releaseDate": {
+    "$date": "2019-04-26T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806562269.jpeg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.4,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": true,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:49:23.392Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830d6"
+  },
+  "title": "Spider-Man: No Way Home",
+  "description": "Peter Parker faces multiverse chaos.",
+  "duration": 148,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "releaseDate": {
+    "$date": "2021-12-17T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806517715.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.2,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": true,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:48:41.037Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830d7"
+  },
+  "title": "Avatar: The Way of Water",
+  "description": "Jake Sully protects Pandora and his family.",
+  "duration": 192,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "releaseDate": {
+    "$date": "2022-12-16T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806384347.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 7.6,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:46:25.148Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830d8"
+  },
+  "title": "Inception",
+  "description": "A thief steals information through dreams.",
+  "duration": 148,
+  "genre": [
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "releaseDate": {
+    "$date": "2010-07-16T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765816674944.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.8,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T16:37:56.411Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830d9"
+  },
+  "title": "Interstellar",
+  "description": "Explorers travel through a wormhole in space.",
+  "duration": 169,
+  "genre": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "releaseDate": {
+    "$date": "2014-11-07T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765816637883.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.6,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T16:37:19.573Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830da"
+  },
+  "title": "The Dark Knight",
+  "description": "Batman faces the Joker in Gotham City.",
+  "duration": 152,
+  "genre": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "releaseDate": {
+    "$date": "2008-07-18T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765816647431.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 9,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T18:22:02.555Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830db"
+  },
+  "title": "Joker",
+  "description": "A failed comedian descends into madness.",
+  "duration": 122,
+  "genre": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "releaseDate": {
+    "$date": "2019-10-04T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806551934.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.4,
+  "totalRatings": 0,
+  "language": "English",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:49:13.900Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830dc"
+  },
+  "title": "Pathaan",
+  "description": "An Indian spy fights a dangerous mercenary group.",
+  "duration": 146,
+  "genre": [
+    "Action",
+    "Thriller"
+  ],
+  "releaseDate": {
+    "$date": "2023-01-25T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806376360.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 7,
+  "totalRatings": 0,
+  "language": "Hindi",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": true,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:46:17.556Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830dd"
+  },
+  "title": "Jawan",
+  "description": "A man driven by revenge fights corruption.",
+  "duration": 169,
+  "genre": [
+    "Action",
+    "Thriller"
+  ],
+  "releaseDate": {
+    "$date": "2023-09-07T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806482897.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 7.4,
+  "totalRatings": 0,
+  "language": "Hindi",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:48:05.529Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830de"
+  },
+  "title": "Leo",
+  "description": "A quiet man with a violent past is forced to fight.",
+  "duration": 164,
+  "genre": [
+    "Action",
+    "Crime",
+    "Thriller"
+  ],
+  "releaseDate": {
+    "$date": "2023-10-19T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806260383.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 7.8,
+  "totalRatings": 0,
+  "language": "Tamil",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": true,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T18:21:05.147Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830df"
+  },
+  "title": "Vikram",
+  "description": "A black-ops commander takes on drug cartels.",
+  "duration": 174,
+  "genre": [
+    "Action",
+    "Thriller"
+  ],
+  "releaseDate": {
+    "$date": "2022-06-03T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806491840.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.4,
+  "totalRatings": 0,
+  "language": "Tamil",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:48:14.092Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830e0"
+  },
+  "title": "RRR",
+  "description": "Two revolutionaries fight against British rule.",
+  "duration": 187,
+  "genre": [
+    "Action",
+    "Drama",
+    "History"
+  ],
+  "releaseDate": {
+    "$date": "2022-03-25T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806509047.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8,
+  "totalRatings": 0,
+  "language": "Telugu",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:48:30.147Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830e1"
+  },
+  "title": "KGF: Chapter 2",
+  "description": "Rocky rises as the king of KGF.",
+  "duration": 168,
+  "genre": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "releaseDate": {
+    "$date": "2022-04-14T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765806501460.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.2,
+  "totalRatings": 0,
+  "language": "Kannada",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T13:48:22.427Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830e2"
+  },
+  "title": "Baahubali: The Beginning",
+  "description": "A man discovers his royal heritage.",
+  "duration": 159,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "releaseDate": {
+    "$date": "2015-07-10T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765816603322.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8,
+  "totalRatings": 0,
+  "language": "Telugu",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": false,
+  "shows": [],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T16:36:44.471Z"
+  },
+  "__v": 0,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6940106d19a0dbb7df6830e3"
+  },
+  "title": "Baahubali: The Conclusion",
+  "description": "The truth behind Baahubali's death is revealed.",
+  "duration": 171,
+  "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "releaseDate": {
+    "$date": "2017-04-28T00:00:00.000Z"
+  },
+  "posterUrl": "/uploads/movies/1765816736427.jpg",
+  "bannerUrl": "https://via.placeholder.com/1200x400?text=Movie+Banner",
+  "rating": 8.2,
+  "totalRatings": 0,
+  "language": "Telugu",
+  "writers": [],
+  "isActive": true,
+  "isFeatured": true,
+  "shows": [
+    {
+      "$oid": "694049d02583a530bf6f99b2"
+    },
+    {
+      "$oid": "694049d02583a530bf6f99be"
+    },
+    {
+      "$oid": "694058d92fdf3be70e946af2"
+    }
+  ],
+  "cast": [],
+  "createdAt": {
+    "$date": "2025-12-15T13:43:09.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T18:52:09.934Z"
+  },
+  "__v": 3,
+  "director": "",
+  "producer": "",
+  "trailerUrl": ""
+}]
