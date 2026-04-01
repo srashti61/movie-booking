@@ -27,7 +27,7 @@ export const authAPI = {
     return response.data;
   },
   register: async (userData) => {
-    const response = await api.post('/auth/register', userData);
+    const response = await api.post('/api/auth/register', userData);
     return response.data;
   },
   getProfile: async () => {

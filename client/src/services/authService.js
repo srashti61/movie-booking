@@ -44,7 +44,7 @@ export const logout = () => {
 
 // Main auth service functions
 export const authService = {
-  register: (userData) => API.post('/auth/register', userData),
+  register: (userData) => API.post('/api/auth/register', userData),
   login: (credentials) => API.post('/auth/login', credentials),
   getProfile: () => API.get('/auth/profile'),
   updateProfile: (userData) => API.put('/auth/profile', userData),
