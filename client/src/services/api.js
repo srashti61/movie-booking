@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: 'http://localhost:5001/api',
   headers: { 'Content-Type': 'application/json' }
 });
 
@@ -27,7 +27,7 @@ export const authAPI = {
     return response.data;
   },
   register: async (userData) => {
-    const response = await api.post('/api/auth/register', userData);
+    const response = await api.post('/auth/register', userData);
     return response.data;
   },
   getProfile: async () => {
@@ -45,8 +45,8 @@ export const authAPI = {
 };
 
 export const reviewAPI = {
-  addReview: (data) => api.post("/reviews", data),
-  getReviews: (movieId) => api.get(`/reviews/${movieId}`),
+  addReview: (data) => axios.post("/api/reviews", data),
+  getReviews: (movieId) => axios.get(`/api/reviews/${movieId}`),
 };
 
 export const movieAPI = {
