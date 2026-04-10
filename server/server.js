@@ -15,7 +15,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://movie-booking-vn6i-n0nthixfm-srashti.vercel.app'
+    'https://movie-booking-vn6i.vercel.app/'
   ],
   credentials: true
 }));
