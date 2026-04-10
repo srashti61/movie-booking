@@ -91,9 +91,13 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("API working ✅");
+});
+
 // Welcome route
 app.get('/api', (req, res) => {
-  res.json({
+  res.send({
     message: '🎬 Welcome to Movie Ticket Booking API',
     version: '1.0.0',
     documentation: 'Available endpoints below',
