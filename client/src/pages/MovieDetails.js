@@ -368,7 +368,11 @@ const filterShows = () => {
                 <Card className="movie-poster-card border-0 shadow-lg">
                   <Card.Img
                     variant="top"
-                    src={currentMovie.posterUrl || 'https://via.placeholder.com/300x450?text=No+Poster'}
+                    src={
+  currentMovie.posterUrl
+    ? `https://api-backend-60wz.onrender.com${currentMovie.posterUrl}`
+    : 'https://via.placeholder.com/300x450?text=No+Poster'
+}
                     alt={currentMovie.title}
                     className="rounded-4"
                   />
