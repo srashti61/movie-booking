@@ -155,7 +155,24 @@ app.use('*', (req, res) => {
   });
 });
 
+// Start server
+const PORT = process.env.PORT || 5001;
+const server = app.listen(PORT, () => {
+  console.log(`✅ Server running on port ${PORT}`);
+  console.log(`🌐 API Base URL: http://localhost:${PORT}/api`);
+  console.log(`📚 Available endpoints:`);
+  console.log(`   http://localhost:${PORT}/api/health`);
+  console.log(`   http://localhost:${PORT}/api/movies`);
+  console.log(`   http://localhost:${PORT}/api/auth/login`);
+  console.log(`   http://localhost:${PORT}/api/admin`);
+  console.log(`\n🎬 Try these test endpoints:`);
+  console.log(`   GET  http://localhost:${PORT}/api/movies`);
+  console.log(`   POST http://localhost:${PORT}/api/auth/login`);
+  console.log(`   POST http://localhost:${PORT}/api/auth/register`);
+  console.log(`   GET  http://localhost:${PORT}/api/admin`);
+});
 
+// Graceful shutdown
 process.on('SIGTERM', () => {
   console.log('SIGTERM received. Shutting down gracefully...');
   server.close(() => {
@@ -163,6 +180,6 @@ process.on('SIGTERM', () => {
     process.exit(0);
   });
 });
-
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 module.exports = app;
