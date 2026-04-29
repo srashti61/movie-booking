@@ -13,7 +13,8 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:5001', 'http://localhost:5173'],
+  origin: "https://movie-booking-vn6i.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
 app.use(express.json());
