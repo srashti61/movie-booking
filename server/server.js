@@ -13,13 +13,9 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || origin.includes("vercel.app")) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: [
+    "https://movie-booking-vn6i.vercel.app"
+  ],
   credentials: true
 }));
 app.use(express.json());
